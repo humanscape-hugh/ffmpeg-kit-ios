@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'hugh-ffmpeg-kit-ios-https'
-  s.version          = '6.0.2'
+  s.version          = '6.0-80adc'
   s.summary          = 'FFmpeg iOS Binaries'
   s.homepage         = 'https://github.com/humanscape-hugh/ffmpeg-kit-ios'
   s.license          = { :type => "LGPL-3.0" }
@@ -11,18 +11,18 @@ Pod::Spec.new do |s|
 
   # Link to the zip file on your GitHub release
   s.source = {
-    :http => 'https://github.com/humanscape-hugh/ffmpeg-kit-ios/releases/download/6.0.2/ffmpegkit-ios.xcframework.zip',
+    :http => 'https://github.com/humanscape-hugh/ffmpeg-kit-ios/releases/download/6.0.2/ffmpegkit-ios-full-gql-latest.xcframework.zip',
     :type => 'zip'
   }
   s.vendored_frameworks = [
-    'ffmpegkit.xcframework',
-    'libavcodec.xcframework',
-    'libavdevice.xcframework',
-    'libavfilter.xcframework',
-    'libavformat.xcframework',
-    'libavutil.xcframework',
-    'libswresample.xcframework',
-    'libswscale.xcframework'
+    '6.0-80adc/ffmpegkit.xcframework',
+    '6.0-80adc/libavcodec.xcframework',
+    '6.0-80adc/libavdevice.xcframework',
+    '6.0-80adc/libavfilter.xcframework',
+    '6.0-80adc/libavformat.xcframework',
+    '6.0-80adc/libavutil.xcframework',
+    '6.0-80adc/libswresample.xcframework',
+    '6.0-80adc/libswscale.xcframework'
   ]
 
   s.libraries = [ "z", "bz2", "c++", "iconv" ]
