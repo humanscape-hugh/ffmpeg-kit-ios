@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'hugh-ffmpeg-kit-ios-https'
-  s.version          = '6.0-80adc'
+  s.version          = '6.0.2'
   s.summary          = 'FFmpeg iOS Binaries'
   s.homepage         = 'https://github.com/humanscape-hugh/ffmpeg-kit-ios'
   s.license          = { :type => "LGPL-3.0" }
