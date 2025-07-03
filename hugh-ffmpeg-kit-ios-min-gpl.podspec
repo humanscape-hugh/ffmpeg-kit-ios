@@ -11,18 +11,18 @@ Pod::Spec.new do |s|
 
   # Link to the zip file on your GitHub release
   s.source = {
-    :http => 'https://github.com/humanscape-hugh/ffmpeg-kit-ios/releases/download/6.0.2/ffmpegkit-ios-min-gpl-latest.xcframework.zip',
+    :http => 'https://github.com/humanscape-hugh/ffmpeg-kit-ios/releases/download/6.0.2/ffmpegkit-ios.xcframework.zip',
     :type => 'zip'
   }
   s.vendored_frameworks = [
-    '6.0-80adc/ffmpegkit.xcframework',
-    '6.0-80adc/libavcodec.xcframework',
-    '6.0-80adc/libavdevice.xcframework',
-    '6.0-80adc/libavfilter.xcframework',
-    '6.0-80adc/libavformat.xcframework',
-    '6.0-80adc/libavutil.xcframework',
-    '6.0-80adc/libswresample.xcframework',
-    '6.0-80adc/libswscale.xcframework'
+    'ffmpegkit.xcframework',
+    'libavcodec.xcframework',
+    'libavdevice.xcframework',
+    'libavfilter.xcframework',
+    'libavformat.xcframework',
+    'libavutil.xcframework',
+    'libswresample.xcframework',
+    'libswscale.xcframework'
   ]
 
   s.libraries = [ "z", "bz2", "c++", "iconv" ]
